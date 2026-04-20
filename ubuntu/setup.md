@@ -32,3 +32,17 @@ TODO there is some official ubuntu checklist/guide we can use ? https://www.redd
 - use snap for stuff like adobe reader
 - using snap insteald of native browser - which sandbox env is used ? I learned the using a flatpak browser might be less secure.
 - use xorg as i get gui glitches for some electron apps rihgt now.. There may be some global electron setting for fix with wayland...
+
+# Audio
+
+- PipeWire is basically the best
+- not PulseAudio and not JACK
+
+- pactl info => should not be found
+- pipewire --version => should be found
+
+## Guitar plugins
+
+- Guitarix is best and supports NAM
+- buuut this one is built around JACK..
+- i already hate this whole thing... 
