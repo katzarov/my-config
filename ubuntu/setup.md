@@ -46,3 +46,18 @@ TODO there is some official ubuntu checklist/guide we can use ? https://www.redd
 - Guitarix is best and supports NAM
 - buuut this one is built around JACK..
 - i already hate this whole thing... 
+
+# Peripherals
+
+## QMK/VIA
+
+Web configurator apps cannot connect to my (keychron) keyboard cause reasons:
+
+https://www.reddit.com/r/Keychron/comments/1ojyhgy/keychron_launcher_not_connecting_to_keyboard_and/
+
+https://www.reddit.com/r/Keychron/comments/1e5um1u/a_linux_user_psa/
+
+https://www.reddit.com/r/Keychron/comments/12f3gat/useviaapp_in_linux_ie_via_support_useful_for/
+
+
+tldr need to add a "udev" rule
