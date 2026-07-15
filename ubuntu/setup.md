@@ -4,7 +4,7 @@ TODO there is some official ubuntu checklist/guide we can use ? https://www.redd
 
 ## Install time
 
-- enable lvm with encryption 
+- enable lvm with encryption
 
 ## Post install
 
@@ -45,11 +45,14 @@ TODO there is some official ubuntu checklist/guide we can use ? https://www.redd
 
 - Guitarix is best and supports NAM
 - buuut this one is built around JACK..
-- i already hate this whole thing... 
+- i already hate this whole thing...
+- need to try a Win VM and see if that works well enough.. latency wise
 
 # Peripherals
 
-## QMK/VIA
+## Keyboard
+
+### QMK/VIA
 
 Web configurator apps cannot connect to my (keychron) keyboard cause reasons:
 
@@ -59,5 +62,24 @@ https://www.reddit.com/r/Keychron/comments/1e5um1u/a_linux_user_psa/
 
 https://www.reddit.com/r/Keychron/comments/12f3gat/useviaapp_in_linux_ie_via_support_useful_for/
 
-
 tldr need to add a "udev" rule
+
+all the remapping i did at this layer to help it feel more like macOS was swap **super** with **control**:
+
+- **cmd = control**
+- **option = alt**
+- **control = super**
+
+### GNOME
+
+Then I did some remapping at gnome layer I suppose.. and now im 90% happy.
+
+`dconf dump / > backup.dconf`
+
+## Logi Options
+
+if mouse already paired with receiver, no need for this -> the deafult mouse settings apply -> but for extra configuration we need it.
+
+`sudo apt install solaar`
+
+then i think i need to manually copy some udev rules cause its not working now
