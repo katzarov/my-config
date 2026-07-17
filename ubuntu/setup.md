@@ -83,3 +83,4 @@ if mouse already paired with receiver, no need for this -> the deafult mouse set
 `sudo apt install solaar`
 
 then i think i need to manually copy some udev rules cause its not working now
+EDIT: upon os restart, it is now working
